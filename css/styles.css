@@ -5,6 +5,52 @@ body {
 }
 
 .link {text-decoration: none;
-       list-style-type: none;
 }
 
+.list {
+    list-style-type: none;
+}
+
+/**------------ HEADER-------------- */
+
+.header-logo {
+    color:#4D5AE5;
+        font-size: 18px;
+        font-family: Raleway;
+        font-weight: 800;
+        line-height: 1.17;
+        letter-spacing: -0.03em;
+        text-transform: uppercase;
+}
+
+.header-logo span {
+    color:#2E2F42;
+}
+
+.header-menu-link {
+    color: #2E2F42;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: -0.02em;
+}
+
+.header-menu-link:hover,
+.header-menu-link:focus {
+    color: #404BBF;
+}
+
+.header-address-link {
+    color: #434455;
+        font-size: 16px;
+        font-style: normal;
+        line-height: 1.5;
+        letter-spacing: -0.02em;
+}
+
+.header-address-link:hover,
+.header-address-link:focus {
+    color: #404BBF; 
+}
+
+/**------------ HEADER-------------- */
