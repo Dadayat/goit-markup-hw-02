@@ -58,12 +58,15 @@ body {
     color: var(--hover-color);
 }
 
+.header-address {
+    font-style: normal;
+}
+
 .header-address-link {
     color: var(--main-text-color);
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    font-style: normal;
 }
 
 .header-address-link:hover,
