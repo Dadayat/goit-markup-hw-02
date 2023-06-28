@@ -40,10 +40,10 @@ body {
 .header-logo {
     color: var(--logo-color);
     font-size: 18px;
-    font-family: var var(--secodary-font);
+    font-family: var(--secodary-font);
     font-weight: 800;
     line-height: 1.17;
-    letter-spacing: -0.03em;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
 }
 
@@ -56,7 +56,7 @@ body {
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
-    letter-spacing: -0.02em;
+    letter-spacing: 0.02em;
 }
 
 .header-menu-link:hover,
@@ -69,7 +69,7 @@ body {
     font-size: 16px;
     font-style: normal;
     line-height: 1.5;
-    letter-spacing: -0.02em;
+    letter-spacing: 0.02em;
 }
 
 .header-address-link:hover,
@@ -85,19 +85,20 @@ body {
 
 .hero-title {
     color: var(--basic-white-color);
+    text-align: center;
     font-size: 56px;
     font-weight: 700;
     line-height: 1.07;
-    letter-spacing: -0.02em;
+    letter-spacing: 0.02em;
 }
 
 .hero-btn {
     color: var(--basic-white-color);
     font-size: 16px;
-    font-family: Roboto;
+    font-family: var(--primary-font);
     font-weight: 500;
     line-height: 1.5;
-    letter-spacing: -0.04em;
+    letter-spacing: 0.04em;
     background-color: var(--logo-color);
     cursor: pointer;
 }
@@ -114,24 +115,25 @@ body {
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
-    letter-spacing: -0.02em;
+    letter-spacing: 0.02em;
 }
 
 .feature-item-text {
     color: var(--main-text-color);
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: -0.02em;
+    letter-spacing: 0.02em;
 }
 
 /**------------ PRODUCT-------------- */
 
 .product-title {
     color: var(--primary-black-color);
+    text-align: center;
     font-size: 36px;
     font-weight: 700;
     line-height: 1.11;
-    letter-spacing: -0.02em;
+    letter-spacing: 0.02em;
     text-transform: capitalize;
 }
 
@@ -143,10 +145,11 @@ body {
 
 .team-title {
     color: var(--primary-black-color);
+    text-align: center;
     font-size: 36px;
     font-weight: 700;
     line-height: 1.11;
-    letter-spacing: -0.02em;
+    letter-spacing: 0.02em;
     text-transform: capitalize;
 }
 
@@ -159,14 +162,14 @@ body {
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
-    letter-spacing: -0.02em;
+    letter-spacing: 0.02em;
 }
 
 .team-item-text {
     color: var(--main-text-color);
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: -0.02em;
+    letter-spacing: 0.02em;
 }
 
 /**------------ FOOTER-------------- */
@@ -178,10 +181,10 @@ body {
 .footer-logo {
     color: var(--logo-color);
     font-size: 18px;
-    font-family: var var(--secodary-font);
+    font-family: var(--secodary-font);
     font-weight: 800;
     line-height: 1.17;
-    letter-spacing: -0.03em;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
 }
 
@@ -193,7 +196,7 @@ body {
     color: var(--secondary-white-color);
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: -0.02em;
+    letter-spacing: 0.02em;
 }
 
 /**------------ FILTER-------------- */
@@ -202,10 +205,10 @@ body {
 .filter-btn {
     color: var(--logo-color);
     font-size: 16px;
-    font-family: Roboto;
+    font-family: var(--primary-font);
     font-weight: 500;
     line-height: 1.5;
-    letter-spacing: -0.04em;
+    letter-spacing: 0.04em;
     background-color: var(--secondary-white-color);
     cursor: pointer;
 }
@@ -223,12 +226,12 @@ body {
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
-    letter-spacing: -0.02em;
+    letter-spacing: 0.02em;
 }
 
 .project-item-text {
     color: var(--main-text-color);
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: -0.02em;
+    letter-spacing: 0.02em;
 }
